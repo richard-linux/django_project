@@ -1,0 +1,51 @@
+{% extends "test_app/base.html" %}
+
+
+
+{% block content %}
+<h1>Content in home template</h1>
+<i class="fas fa-arrow-alt-circle-down"></i>
+
+<span style="font-size: 3rem;">
+  <span style="color: Green;">
+  <i class="fas fa-arrow-alt-circle-down"></i>
+  </span>
+</span>
+{% endblock content %}
+
+<div class="card text-center shadow p-3" style="width: 18rem; margin: 1rem 0 0 1rem;">
+  		<img class="card-img-top" src="{% static 'test_app/media/linux-py.png' %}" alt="Card image cap">
+  		<div class="card-body">
+    		<h5 class="card-title">Card title</h5>
+    		<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    		<a href="#" class="btn btn-primary">Go somewhere</a>
+  		</div>
+	</div>
+	
+	<div class="row">
+  <div class="col-sm-3">
+    <div class="card shadow p-3" style="margin: 1rem 0 0 1rem;">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card shadow p-3" style="margin: 1rem 0 0 0;">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="card shadow p-3" style="margin: 1rem;">Regular shadow</div>
+
+
+
+
+
+ 
